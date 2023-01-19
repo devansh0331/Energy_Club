@@ -1,0 +1,34 @@
+.card{
+    margin: 2rem;
+    width: 12rem;
+
+    
+  }
+  
+ 
+
+
+.card img{
+    filter: inherit;
+    width: 100%;
+    height: 10rem;
+}
+
+.networks{
+    display: flex;
+}
+
+.favicons img{
+    height: 2rem;
+    width: 2rem;
+}
+.card:hover{
+
+    
+    border-radius: 5px;
+    cursor: pointer;
+   
+    background-color: rgb(202, 198, 198);
+}
+
+    

@@ -1,0 +1,80 @@
+.footer{
+    
+
+    margin: -10px 0;
+    position: sticky;
+    width: 100%;
+    height: inherit;
+    background-color: black;
+    /* background-color: blue; */
+    /* background-color: rgb(3, 75, 3); */
+    background-image: linear-gradient(to bottom right,  rgb(2, 47, 2), rgb(4, 118, 11));
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    display: flex;
+   
+    align-items: center;  
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+    animation-name: example1;
+    animation-duration: 2s;
+    
+    
+}
+@keyframes example1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .clgInfo , .devInfo , .clubInfo{
+   
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    
+  }
+
+  .clgInfo a {
+    filter: invert();
+   
+  }
+
+  .clgInfo{
+    color: white;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clgInfo_text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+
+  }
+
+  @media only screen and (max-width: 750px) {
+    .header{
+     flex-direction: column;
+   }
+ }
+
+ .networks{
+  margin: 0 auto;
+ }
+
+ .favicons{
+  margin: 0 0.5rem;
+ }

@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+
+.navbar-brand{
+    display: inline;
+    margin: 0 2.5rem;
+    padding: 0.5rem 3rem;
+    
+   
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-weight: 900;
+    margin: 6rem;
+    display: inline;
+   
+}
+.container-fluid{
+    background-color: rgb(14, 211, 14);
+    background-image: linear-gradient(to right, rgb(43, 172, 31) , rgb(32, 226, 77));
+    /*border-radius: 25px;*/
+    height: 50px;
+    box-shadow: -15px -15px;
+    margin: 15px;
+}
+
+.navbar-brand:hover {
+    border-radius: 25px;
+    color: green;
+    background-color: white;
+    cursor: pointer;   
+}
+.title:hover{
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(27, 105, 20) , rgb(1, 123, 29));
+
+}
+/*@media only screen and (max-width: 750px) {
+    .container-fluid{
+        display: flex;
+     flex-direction: column;
+   }
+ }*/

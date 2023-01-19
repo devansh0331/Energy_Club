@@ -1,0 +1,6 @@
+.teams{
+    display: flex;
+    margin: 5rem;
+    align-items: center;
+    justify-content:space-around;
+}
