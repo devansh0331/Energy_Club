@@ -44,6 +44,8 @@
 
   .headerContent_text:hover {
     background: rgb(201, 198, 198);
+    border-radius: 10px;
+    cursor: pointer;
     
   }
  

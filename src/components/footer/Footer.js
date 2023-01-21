@@ -36,7 +36,7 @@ function Footer() {
 
     <div className='devInfo'>
       <span>Developed By: Devansh Shrivastava</span>
-      <p>Email: devanshshrivastava07@gmail.com</p>
+      <p>Email: <a href="http://devanshshrivastava07@gmail.com/" className='link'> devanshshrivastava07@gmail.com</a></p>
     </div>
     </div>
   )
