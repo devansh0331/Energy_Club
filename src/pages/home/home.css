@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&family=Lato:wght@300;900&family=Roboto:wght@300&display=swap');
 
+body{
+ 
+  background: linear-gradient(112.1deg, rgb(211, 226, 211) 11.4%, rgb(170, 248, 175) 70.2%);
+  
+  color: black;
+
+}
+
 .header{
     animation-name: example;
     animation-duration: 5s;
@@ -11,9 +19,15 @@
     to {opacity: 1;}
   }
 
+
+  .section{
+    width: 100%;
+  }
+
 .img-thumbnail{
     border-bottom: -15px;
     margin: 15px;
+
  
 }
 
@@ -26,6 +40,7 @@
     align-items: flex-start;
     margin: 0 5px;
     height: inherit;
+  
 }
 .headerContent_text , .headerContent_header{
     margin: 0.1rem 1.5rem;
@@ -36,6 +51,13 @@
     animation-duration: 2s;
     
     
+    
+    
+}
+
+.headerContent_header{
+  text-align: center;
+  width: 100%;
 }
 @keyframes example1 {
     from {opacity: 0;}
@@ -43,17 +65,19 @@
   }
 
   .headerContent_text:hover {
-    background: rgb(201, 198, 198);
-    border-radius: 10px;
+    background-color: rgb(138, 255, 175);
+    /* border-radius: 35px; */
     cursor: pointer;
+    
+    
+    
     
   }
  
 
 .headerContent_text{
-    /* font-family: 'Roboto', sans-serif;
-    font-weight: 600; */
-    background-color: antiquewhite;
+    /* width: 100%; */
+    /* background-color: antiquewhite; */
     font-size: 1.2rem;
 }
 
@@ -76,11 +100,47 @@
     align-items: center;
     justify-content: space-evenly;
     margin:  5px;
+   
 
 }
 
-@media only screen and (max-width: 750px) {
-     .header{
-      flex-direction: column;
-    }
+
+
+  .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
+
+  .section2 .headerContent_text{
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section2{
+    margin: 1rem;
+  }
+
+  .section2 .headerContent_text:hover{
+    
+    background-image: linear-gradient(to bottom right, rgb(27, 124, 0), rgb(0, 255, 17));
+  
+  }
+
+  @media only screen and (max-width: 750px) {
+    .headerContent , .headerContent_text {
+     flex-direction: column;
+     text-align: justify;
+     width: 100%;
+   }
+
+   .section2{
+      flex-direction: column;
+      width: 100%;
+   }
+ }
+

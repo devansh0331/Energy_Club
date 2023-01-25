@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+
+
 img{
     height: 80px;
     filter: invert();
+
 }
 
-
+.navbar{
+    width: 100%;
+}
 
 .container-fluid{
     background-image: linear-gradient(to bottom right, rgb(27, 124, 0), rgb(0, 255, 17));
     background-image: linear-gradient(to bottom right,  rgb(2, 47, 2), rgb(4, 118, 11));
-    /* border-radius: 30px; */
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+ 
     font-weight: 1000;
-    /* margin: 0 2rem;
-    padding: 0 2rem; */
+ 
     animation-name: example;
     animation-duration: 2s;
     width: 100%;

@@ -1,6 +1,9 @@
 .card{
     margin: 1.5rem;
     width: 12rem;
+    margin: 5rem;
+    font-family: 'Righteous', cursive;
+    color: black;
 
     
   }
@@ -30,5 +33,11 @@
    
     background-color: rgb(202, 198, 198);
 }
+
+.favicons img:hover{
+    filter: invert();
+  
+}
+
 
     

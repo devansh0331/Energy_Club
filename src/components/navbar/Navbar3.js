@@ -5,7 +5,7 @@ import "./Navbar3.css"
 
 function Navbar3() {
   return (
-    <div>
+    <div className='mynav'>
      <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <Link to="/" className="navbar-brand" href="#"><img src={logo} alt=""/></Link>

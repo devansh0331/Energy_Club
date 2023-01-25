@@ -6,11 +6,10 @@
     width: 100%;
     height: inherit;
     background-color: black;
-    /* background-color: blue; */
-    /* background-color: rgb(3, 75, 3); */
+   
     background-image: linear-gradient(to bottom right,  rgb(2, 47, 2), rgb(4, 118, 11));
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+
+
     animation-name: example;
     animation-duration: 4s;
     display: flex;
@@ -66,12 +65,15 @@
   }
 
   @media only screen and (max-width: 750px) {
-    .header{
+    .header,.clgInfo , .devInfo , .clubInfo{
+      display: flex ;
      flex-direction: column;
+     align-items: center;
+     justify-content: center;
    }
  }
 
- .networks{
+ .networks  {
   margin: 0 auto;
  }
 
