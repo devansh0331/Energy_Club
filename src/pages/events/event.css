@@ -1,0 +1,29 @@
+.makeFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    border: 2px solid black;
+}
+
+.box{
+    font-size: 1.3rem;
+    margin: 3rem;
+    padding: 2rem;
+    text-decoration-style:none;
+    text-align: justify;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-style: normal;
+    box-sizing: border-box;
+
+}
+
+.poster img{
+    width: 20%;
+    height: 20%;
+    margin: 2rem;
+    filter: none;
+    
+}
+
